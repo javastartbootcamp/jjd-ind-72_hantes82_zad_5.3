@@ -1,6 +1,9 @@
 package pl.javastart.task;
 
 public class Product {
+    public static final String CATEGORY_DAIRY = "Nabiał";
+    public static final String CATEGORY_MEAT = "Mięso";
+    public static final String CATEGORY_KIDS_ART = "Artykuły dziecięce";
     private String name;
     private String description;
     private double netPrice;
